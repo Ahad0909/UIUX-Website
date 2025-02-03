@@ -18,7 +18,7 @@ export default function Footer(){
             <div className="flex flex-col justify-center items-center w-[200px] pt-3">
                 <ul>
                     <h2 className="text-2xl sm:text-3xl font-extrabold">SHOP.CO</h2>
-                    <p className="text-sm mt-3">We have clothes that suits your style and which you're proud to wear.From women to men.</p>
+                    <p className="text-sm mt-3">We have clothes that suits your style and which you&aposre proud to wear.From women to men.</p>
                     {/* icon */}
                     <div className="flex items-center space-x-3 mt-2">
                         <FaInstagram className="text-xl"/>

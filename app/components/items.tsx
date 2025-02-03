@@ -42,7 +42,13 @@ let product:Iproducts[] = [
    
 ]
 
-let star = [<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>]
+let star = [
+    <FaStar key={1} />,
+    <FaStar key={2} />,
+    <FaStar key={3} />,
+    <FaStar key={4} />,
+    <FaStar key={5} />,
+  ];
 
 export default function Items(){
     return(

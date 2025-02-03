@@ -35,13 +35,13 @@ import { Button } from "@/components/ui/button";
         <AccordionItem value="item-3">
           <AccordionTrigger>Party</AccordionTrigger>
           <AccordionContent>
-            Yes. It's animated by default, but you can disable it if you prefer.
+            Yes. It&aposs animated by default, but you can disable it if you prefer.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-4">
           <AccordionTrigger>Gym</AccordionTrigger>
           <AccordionContent>
-            Yes. It's animated by default, but you can disable it if you prefer.
+            Yes. It&aposs animated by default, but you can disable it if you prefer.
           </AccordionContent>
         </AccordionItem>
       </Accordion>

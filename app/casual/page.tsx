@@ -5,7 +5,7 @@ import Outfits from "../components/outfits";
 import Size from "../components/size";
 import { SliderDemo } from "../components/slider";
 
-export default function(){
+export default function Casual(){
     return(
         <main className="flex flex-col sm:flex-row justify-center items-center space-x-6">
             {/* Left Div */}

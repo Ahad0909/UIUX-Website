@@ -52,7 +52,13 @@ const Reviews = [
         date:"Posted on August 20, 2023",
       },
   ];
-  let star = [<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>]
+  let star = [
+    <FaStar key={1} />,
+    <FaStar key={2} />,
+    <FaStar key={3} />,
+    <FaStar key={4} />,
+    <FaStar key={5} />,
+  ];
 
 export default function Review(){
     return(
@@ -69,9 +75,9 @@ export default function Review(){
             <div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-5 mt-3 md:mt-0">
                     {
-                        Reviews.map((data)=>{
+                        Reviews.map((data,i)=>{
                             return(
-                                <div className="border p-5 rounded-[20px]">
+                                <div className="border p-5 rounded-[20px]" key={i}>
                                     <p className="flex text-yellow-500">{star}</p>
                                     <h2 className="font-bold mt-1 flex text-xl">{data.name} <Check className="bg-green-400 rounded-full text-white"/></h2>
                                     <p className="text-sm">{data.feedback}</p>
