@@ -34,7 +34,7 @@ let product:Iproducts[] = [
     {
         title:"T-shirt With Tape Details",
         id:1,
-        price:"$120",
+        price:"$130",
         img_url:"/product1.svg",
         img1:"/product1.svg",
         img2:"/product1.svg",
